@@ -1,0 +1,137 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+
+    background-color: rgb(255, 224, 229);
+    margin: 0;
+    line-height: 1.5;
+    
+  }
+  main{
+    margin: 25px;
+    
+  }
+.header {
+    background-image: url('1.jpg');
+    padding: 20px;
+    text-align: center;
+  }
+  .nav {
+    background-color: rgba(172, 255, 47, 0.668);
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .navigation {
+    padding: 40px;
+    text-align: center;
+    
+  }
+  
+  .navigation a {
+    color: #333333;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bold;
+   
+  }
+  
+  .navigation a:hover {
+    color: firebrick;
+    background-color: rgb(144, 238, 144);
+  }
+  
+  .navigation a.active {
+    color: #000000;
+    background-color: #eeeeee;
+  }
+  
+
+/* Introduction */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  /* List of pollution percentages */
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  h2{
+    text-decoration: underline;
+  }
+  img{ 
+ 
+    height: 400px;
+    width: 700px;
+  }
+  /* Paragraphs */
+  p {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Control measures paragraph */
+  .control-measures {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Control measures list */
+  .control-measures-list {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .control-measures-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+
+
+
+  .footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+  #grid{
+    
+    display: grid;
+    grid-gap: 100px;
+    padding: 10px;
+  
+    grid-template-columns: auto auto auto auto auto;
+    
+
+}
+#grid-container{
+    
+   
+    padding: 15px 5px;
+    font-size: 18px;
+}
+h3{
+    text-align: center;
+
+}
+.end{
+  color: black;
+  text-decoration: none;
+}
